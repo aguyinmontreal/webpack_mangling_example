@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+
+    <meta name=theme-color content=#ffffff>
+    <title>general_about71 | header_tagline13!</title>
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <link rel=stylesheet type=text/css href=./bundledCSS/bundle.css>
+    <style>
+        .ui.dimmer{z-index:10000!important}.ui.fixed.menu+.ui.grid{padding-top:0!important}.menu.placeholder{margin-bottom:.6em!important}
+    </style>
+</head>
+
+<body class=no-scroll>
+<div></div>
+<div class="ui centered grid borderless main menu visible" id=desktop_bar style=align-items:center>
+    <div class="three wide large screen only column"></div>
+    <div class="twelve wide tablet eight wide large screen ten wide computer column menu_first" style=font-size:1.14285714rem;white-space:nowrap>
+        <div class="ui grid center aligned centered">
+            <div href=# class="header item">
+                <h2 class=find><a href=/search class=item>header_taglineShort14</a></h2>&nbsp;&nbsp; <a class="ui blue button visible no-hide" href=/logout>header_logout15</a>
+                <div class="ui fluid popup top left transition" id=popupDropdown>
+                    <form class="ui form" id=loginForm method=POST action=/login>
+                        <div class=field> <label>general_email24: </label> <input type=text placeholder=general_email24 id=txtUserName name=email> </div>
+                        <div class=field> <label>header_password27:</label> <input type=password placeholder=header_password27 id=txtUserPassword name=password> </div>
+                        <div class=field> <a onclick="return handleForgotPassword(),!1" href=#>header_forgotPassword28</a> </div>
+                        <div class=field style=text-align:center> <input type=submit value=header_login16 class="ui submit blue button" id=login_button name=login_button> </div>
+                        <div class="ui error message" id=response></div>
+                    </form>
+                    <form class="ui form" id=forgotPassword action=/forget_password method=POST>
+                        <div class=field> <label>header_emailMessage30: </label> <input type=text placeholder=general_email24 id=txtEmail name=email1> </div>
+                        <div class=field style=text-align:center> <button id=forgot_button name=forgot_button class="ui submit blue button" type=submit>general_submit31</button> </div>
+                        <div class=field style=text-align:left> <a onclick="return handleBackForgotPassword(),!1" href=#>header_previous29</a> </div>
+                        <div class="ui error message"></div>
+                    </form>
+                    <div class="ui segment basic" id=forgotThanks>header_thanks35</div>
+                </div> &nbsp;&nbsp; <button onclick='window.location="/about"' class="ui two wide blue button no-hide" style=visibility:hidden> header_signup34</button> <a href=javascript:void(0) class="ui dropdown item language"> header_language33 <i class="dropdown icon"></i> <div class=menu> <div onclick='window.location.href="?clang=en-ca"' class=item>English</div> <div onclick='window.location.href="?clang=fr-ca"' class=item>Français</div> </div> </a>                    </div>
+        </div>
+    </div>
+    <div class="twelve wide mobile eight wide tablet eight wide computer four wide large screen column right floated">
+        <div class="ui action input fluid" style=display:none id=searching_box2>
+            <div class="ui fluid multiple search selection dropdown" id=sortable> <input name=tags type=hidden> <i class="search icon"></i>
+                <div class="default text">searchbox_what38</div>
+                <div class=menu> </div>
+            </div> <input type=hidden name=clang value=en-ca> <button class="ui blue right button no-hide">searchbox_search36</button> </div>
+    </div>
+    <div class="one wide column" style=padding:0></div> <input type=hidden id=current_language value=english> </div>
+<div id=mobile-indicator></div>
+</body>
+
+</html>

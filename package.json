@@ -1,0 +1,39 @@
+{
+  "name": "crazywebpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguyinmontreal/webpack_mangling_example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aguyinmontreal/webpack_mangling_example/issues"
+  },
+  "homepage": "https://github.com/aguyinmontreal/webpack_mangling_example#readme",
+  "devDependencies": {
+    "ajv": "^6.4.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "css-mqpacker": "^6.0.2",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^0.11.2",
+    "imports-loader": "^0.7.1",
+    "nodemon": "^1.17.2",
+    "postcss-loader": "^2.1.3",
+    "postcss-uncss": "^0.15.0",
+    "style-loader": "^0.18.2",
+    "uncss": "^0.15.0",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.11.0"
+  }
+}
