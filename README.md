@@ -8,4 +8,4 @@ my custom settings are in the following files:
 `webpack.config.js`
 
 
-I use the following CLI command: `webpack -p --config .\webpack.config.js --display-error-details`
+To run, run the following CLI command in the project's root folder: `npm start`
