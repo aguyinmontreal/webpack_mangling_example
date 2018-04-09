@@ -6,3 +6,6 @@ afterWebpack.html is the html file with the post-webpack css file
 my custom settings are in the following files:
 postcss.config.js
 webpack.config.js
+
+
+I use the following CLI command: `webpack -p --config .\webpack.config.js --display-error-details`
